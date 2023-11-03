@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-header {
+    color: #302040;
+    font-family: 'Lato';
+}
+
+.title {
+    color: #302040;
+    font-family: 'Lato';
+    font-weight: 600;
+    padding: 1.8rem;
+}
+
+a {
+    font-size: 10px;
+    text-align: right;
+}
+
+p {
+    padding: 3rem;
+    text-align: justify;
+
+}
+
+body {
+    margin: 0;
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.form-image {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.form-image img {
+    width: 80%;
+}
+
+.form {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ececec;
+    padding: 3rem;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    width: 100%;
+    border: #000000;
+    background-color: #302040;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.login-button button:hover {
+    background-color: #6c63ff;
+
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.made-login-button {
+    /* página de envio de e-mail*/
+    display: flex;
+    align-items: center;
+}
+
+.made-login-button button {
+    /* página de envio de e-mail*/
+    width: 100%;
+    border: #000000;
+    background-color: #302040;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.made-login-button button:hover {
+    /* página de envio de e-mail*/
+    background-color: #6c63ff;
+
+}
+
+.made-login-button button a {
+    /* página de envio de e-mail*/
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.cancel-button {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.cancel-button button {
+    width: 100%;
+    border: #000000;
+    background-color: #fff;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.cancel-button button:hover {
+    background-color: #6c63ff;
+
+}
+
+.cancel-button button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #302040;
+    text-transform: uppercase;
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #b4b4b4;
+    background-color: #f2f2f2;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 2px solid #b4b4b4;
+}
+
+.input-box {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.input-checkbox {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .form-image {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        background-color: #ececec;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+}
